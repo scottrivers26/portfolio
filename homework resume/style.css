@@ -1,0 +1,106 @@
+.resume{
+	display: grid;
+	grid-template-columns: repeat(2, 0.5fr 2fr);
+
+}
+.navtopright{
+	justify-self: center;
+	align-self: end;
+	grid-column: 3/5;
+	color: slategray;
+}
+.picturebox{
+	justify-self: start;
+	grid-row: 2/ 3;
+	grid-column: 2/ 3;
+	
+}
+#bigboy{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+}
+.bigbox{
+	grid-row: 2/ 3;
+	grid-column: 3/ 5;
+	color: gray;
+}
+.button{
+	border-radius:20px;
+	color: gray;
+	background-color: lightgray;
+}
+h3{
+	grid-column:2/ 3;
+	grid-row: 2/ 3;
+	justify-self: end;
+}
+.section{
+	grid-row: 3/ 4;
+	grid-column: 2/ 3;
+}
+.section2{
+	grid-row: 3/ 4;
+	grid-column: 4/ 5;
+}
+.section3{
+	grid-row: 4/ 5;
+	grid-column: 2/ 3;
+}
+.section4{
+	grid-row: 4/ 5;
+	grid-column: 4/ 5;
+}
+.sizing{
+	width: 30px;
+	height: 30px;
+}
+.testimonials{
+	align-self: center;
+	grid-row: 5/6;
+	grid-column: 1/ 5;
+	justify-self: center;
+}
+.tinypic1{
+	grid-row: 3/ 4;
+	grid-column: 1/ 2;
+	align-self: center;
+	justify-self: end;
+}
+.tinypic2{
+	grid-row: 4/ 5;
+	grid-column: 1/ 2;
+	align-self: center;
+	justify-self: end;
+}
+.tinypic3{
+	grid-row: 3/ 4;
+	grid-column: 3/ 4;
+	align-self: center;
+	justify-self: end;
+}
+.tinypic4{
+	grid-column: 3/ 4;
+	grid-row: 4/ 5;
+	align-self: center;
+	justify-self: end;
+}
+.what{
+	grid-column: 2/ 3;
+	grid-row: 2/ 3;
+	align-self: end;
+	justify-self: center;
+	}
+h1{
+	align-self: end;
+}
+p{
+	color: gray;
+}
+h3{
+	color: slategray;
+}
+li{
+	display: inline;
+}
